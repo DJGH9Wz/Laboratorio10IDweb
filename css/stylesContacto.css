@@ -1,0 +1,66 @@
+header{
+    background-color: black;
+    color:white;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin:0 10px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+section{
+  background-color: rgb(0, 24, 102);
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+   
+
+.art-tarjetas{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tarjeta{
+    border: 2px black ;
+    padding: 0 20px;
+    width: 400px;
+    height: 70px;
+    margin:0 15px;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
